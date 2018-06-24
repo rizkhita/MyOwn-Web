@@ -1,0 +1,52 @@
+body{
+	font-family: 'Open Sans','sans-serif';
+	line-height: 1;
+}
+#wrapper{
+	width: 100%;
+	max-width: 960px;
+	margin: 0;
+
+}
+header{
+	width: 100%;
+	background: #151515;
+}
+header:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+#logo{
+	float: left;
+	width: 270px;
+	height:70px;
+	background: url("images/logo.png");
+}
+nav{
+	float: right;
+	margin-top: 28px;
+}
+nav a{
+	text-decoration: none;
+	color:fff;
+}
+nav a:hover{
+	color:#e8e6e0;
+}
+nav li{
+	float: left;
+	margin-left: 0px 0px 0px 20px;
+	list-style-type:none; 
+}
+nav span{
+	color: #50b106;
+	margin-left: 20px;
+}
+#banner{
+	max-width: 450px;
+	position: relative;
+}
+#banner img{
+	width:100%;
+}

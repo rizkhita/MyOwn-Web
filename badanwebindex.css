@@ -1,0 +1,143 @@
+/*DESKTOP*/
+
+body{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	padding:0;
+	margin:0;
+	background-color:pink;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+header{
+	background:grey;
+	color:yellow;
+	border-bottom: orange 3px solid;
+}
+
+header a{
+
+	color:white;
+	text-decoration:none;
+	font-size:18px;
+	font-weight: bold;
+}
+
+
+header li{
+	float:left;
+	display:inline;
+	padding:0 10px 0 10px ;
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	float:left;
+}
+
+header #branding img{
+	
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100px;
+}
+
+header nav{
+	float:right;
+	margin-top:40px;
+	margin-bottom: 40px;
+}
+
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+
+.slideshow{
+	background-image: url("bg2.jpg");
+	height: 500px;
+}
+
+.sidebox{
+
+	padding-top: 10px 10px 10px 10px;
+	margin-top: 30px;
+	margin-bottom: 70px;
+	text-align: center;
+	text-decoration: helvetica;
+}
+
+.sidebox img{
+	border-radius: 30px;
+	position: center;
+}
+/*bagian box*/
+#boxes{
+	text-align: center;
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 80px;
+	margin-bottom: 50px;
+
+		
+}
+
+#boxes .box{
+float:left;
+	text-align: center; 
+	width:20%;
+	padding:50px;
+	
+
+}
+
+#boxes .box img{
+text-align: center;
+width :200px;
+
+}
+
+#boxes .box h3{
+margin-top: 20px;
+
+}
+
+aside#sidebar{
+float:right;
+width:30%;
+margin-top: 50px;
+
+}
+
+article#main-col{
+	padding-top: 30px;
+	padding-left: 20px;
+	float:left;
+	width:60%;
+}
+
+article table{
+	border-color: orange;
+	border-radius: 15px; 
+
+}
+
+footer{
+	border-top: orange 3px solid;
+	padding:20px;
+	margin-top:20px;
+	color:#ffffff;
+	background-color: grey;
+
+
+
